@@ -68,6 +68,6 @@
   }
 
   .section {
-    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+    @apply py-8 lg:h-screen flex items-center mt-auto mb-auto;
   }
 }
