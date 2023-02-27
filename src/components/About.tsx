@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { motion } from "framer-motion";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
@@ -75,14 +74,6 @@ export const About = () => {
           </motion.div>
         </div>
       </div>
-=======
-import React from "react";
-
-export const About = () => {
-  return (
-    <section className="section" id="about">
-      About
->>>>>>> f973760829e18b114068b679a277916113eefa5b
     </section>
   );
 };

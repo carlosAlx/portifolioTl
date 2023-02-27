@@ -6,22 +6,10 @@ import { fadeIn } from "../variants";
 
 export const Banner = () => {
   return (
-    <section
-<<<<<<< HEAD
-      className="section flex items-center"
-      id="home"
-    >
+    <section className="section flex items-center" id="home">
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-8 md:flex-row md:items-center md:gap-x-20 ">
           <div className="flex-1 text-center font-secondary md:text-left">
-=======
-      className="section min-h-[85vh] lg:min-h-[78vh] flex items-center"
-      id="home"
-    >
-      <div className="container mx-auto">
-        <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-20 ">
-          <div className="flex-1 text-center font-secondary lg:text-left">
->>>>>>> f973760829e18b114068b679a277916113eefa5b
             <motion.div
               variants={fadeIn("up", 0.3)}
               whileInView={"show"}
@@ -60,22 +48,14 @@ export const Banner = () => {
               variants={fadeIn("up", 0.5)}
               whileInView={"show"}
               initial="hidden"
-<<<<<<< HEAD
               className="flex items-center gap-x-3 max-w-max mx-auto md:mx-0 mt-5 mb-5"
-=======
-              className="flex items-center gap-x-3 max-w-max mx-auto lg:mx-0 mt-5 mb-5"
->>>>>>> f973760829e18b114068b679a277916113eefa5b
             >
               <button className="btn btn-lg">Contact me</button>
               <a className="text-gradient btn-link" href="">
                 My Portfolio
               </a>
             </motion.div>
-<<<<<<< HEAD
             <div className="flex gap-x-2 max-w-max mx-auto md:mx-0">
-=======
-            <div className="flex gap-x-2 max-w-max mx-auto lg:mx-0">
->>>>>>> f973760829e18b114068b679a277916113eefa5b
               <a href="">
                 <FaGithub />
               </a>
@@ -93,11 +73,7 @@ export const Banner = () => {
             whileInView={"show"}
             initial="hidden"
             viewport={{ once: false, amount: 0.7 }}
-<<<<<<< HEAD
             className="hidden md:flex flex-1"
-=======
-            className="hidden lg:flex flex-1"
->>>>>>> f973760829e18b114068b679a277916113eefa5b
           >
             <img src={Avatar} alt="" />
           </motion.div>
