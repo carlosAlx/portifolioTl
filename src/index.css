@@ -68,6 +68,6 @@
   }
 
   .section {
-    @apply py-8 flex items-center;
+    @apply py-9 flex items-center;
   }
 }
