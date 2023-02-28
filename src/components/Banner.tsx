@@ -36,7 +36,7 @@ export const Banner = () => {
               variants={fadeIn("up", 0.4)}
               whileInView={"show"}
               initial="hidden"
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: false, amount: 1 }}
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
               expedita et ut autem provident sit laudantium molestiae, cum sed
