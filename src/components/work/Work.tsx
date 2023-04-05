@@ -16,9 +16,9 @@ export const Work = () => {
           viewport={{ once: false, amount: 0.7 }}
           className="flex w-full flex-col"
         >
-          <div className="w-full flex flex-wrap items-center justify-center gap-7">
+          <div className="w-full grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-7">
             {/* text */}
-            <div className="lg:basis-5/12 md:p-5">
+            <div className="md:p-5">
               <h2 className="h2 leading-tight text-accent">My Lasted Work</h2>
               <p className="">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.

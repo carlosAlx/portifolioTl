@@ -2,7 +2,7 @@ import { ImgsWorkType } from "./type";
 
 export const Workimg = ({ img, title, nameProjeto }: ImgsWorkType) => {
   return (
-    <div className="lg:basis-5/12 flex group relative overflow-hidden border-2 border-white/50 rounded-xl">
+    <div className="flex group relative overflow-hidden border-2 border-white/50 rounded-xl">
       <div className="group-hover:bg-black/70 w-full h-full z-40 transition-all duration-300 absolute"></div>
       <img
         className="group-hover:scale-125 transition-all duration-500"

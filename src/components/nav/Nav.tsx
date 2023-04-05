@@ -16,6 +16,7 @@ export const Nav = () => {
             smooth={true}
             spy={true}
             offset={-200}
+            title="Home"
           >
             <BiHomeAlt />
           </Link>
@@ -26,6 +27,7 @@ export const Nav = () => {
             smooth={true}
             spy={true}
             offset={-200}
+            title="About"
           >
             <BiUser />
           </Link>
@@ -37,6 +39,7 @@ export const Nav = () => {
             smooth={true}
             spy={true}
             offset={-200}
+            title="Services"
           >
             <BsClipboardData />
           </Link>
@@ -47,6 +50,7 @@ export const Nav = () => {
             smooth={true}
             spy={true}
             offset={-200}
+            title="Work"
           >
             <BsBriefcase />
           </Link>
@@ -57,6 +61,7 @@ export const Nav = () => {
             smooth={true}
             spy={true}
             offset={-200}
+            title="Contact"
           >
             <BsChatSquare />
           </Link>
